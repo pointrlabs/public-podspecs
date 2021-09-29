@@ -7,7 +7,7 @@ Pod::Spec.new do |m|
 
   m.summary           = 'Open source vector map solution for iOS with full styling capabilities.'
   m.homepage          = 'https://docs.maptiler.com/maplibre-gl-native-ios/'
-  m.license           = { :type => 'BSD' }
+  m.license           = 'BSD'
   m.author            = { 'Maplibre' => 'https://maplibre.org' }
 
   m.source = {
