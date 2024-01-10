@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PointrKit'
-  s.version          = '8.11.0'
+  s.version          = '8.11.0-pre02'
   s.summary          = 'Pointr iOS SDK'
 
   s.homepage         = 'https://github.com/pointrlabs'
@@ -30,8 +30,6 @@ Pod::Spec.new do |s|
   ]
   s.weak_frameworks = %w[
     UserNotifications
-    ARKit
-    SceneKit
   ]
 
   s.libraries = ['z', 'c++']
