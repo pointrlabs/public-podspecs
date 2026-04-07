@@ -30,8 +30,6 @@ Pod::Spec.new do |s|
   ]
   s.weak_frameworks = %w[
     UserNotifications
-    ARKit
-    SceneKit
   ]
 
   s.libraries = ['z', 'c++']
