@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source = { http: "https://pointrapps.blob.core.windows.net/sdk/ios/PointrKitCore/#{s.version}/PointrKitCore.zip?#{ENV['POINTR_SDK_TOKEN']}" }
 
-  s.platform = :ios, '10.0'
+  s.platform = :ios, '13.0'
   s.swift_versions = ['5.0']
 
   s.frameworks = %w[
@@ -35,5 +35,5 @@ Pod::Spec.new do |s|
   s.libraries = ['z', 'c++']
   s.vendored_framework = 'PointrKitCore.xcframework'
 
-  s.dependency 'Mapbox-iOS-SDK', '~>5'
+  s.dependency 'MapLibre', '~>5'
 end
